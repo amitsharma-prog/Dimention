@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/smart/source/light/blank_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jul 2019 11:05:44 GMT -->
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="Responsive Admin Template" />
+	<meta name="author" content="SmartUniversity" />
+	<title>Smart University | Bootstrap Responsive Admin Template</title>
+	<!-- google font -->
+	<?php
+		require_once 'include/header.php';
+	?>
+</head>
+<!-- END HEAD -->
+
+<body
+	class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
+	<div class="page-wrapper">
+		<?php require_once 'include/headerMenu.php'; ?>
+		<!-- start color quick setting -->
+		<div class="quick-setting-main">
+			<button class="control-sidebar-btn btn" data-toggle="control-sidebar"><i
+					class="fa fa-cog fa-spin"></i></button>
+			<div class="quick-setting display-none">
+				<ul id="themecolors">
+					<li>
+						<p class="selector-title">Main Layouts</p>
+					</li>
+					<li class="complete">
+						<div class="theme-color layout-theme">
+							<a href="#" data-theme="light"><span class="head"></span><span class="cont"></span></a>
+							<a href="http://radixtouch.in/templates/admin/smart/source/dark/blank_page.html" data-theme="dark"><span class="head"></span><span
+									class="cont"></span></a>
+						</div>
+					</li>
+					<li>
+						<p class="selector-title">Sidebar Color</p>
+					</li>
+					<li class="complete">
+						<div class="theme-color sidebar-theme">
+							<a href="#" data-theme="white"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="dark"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="blue"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="indigo"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="cyan"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="green"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="red"><span class="head"></span><span class="cont"></span></a>
+						</div>
+					</li>
+					<li>
+						<p class="selector-title">Header Brand color</p>
+					</li>
+					<li class="theme-option">
+						<div class="theme-color logo-theme">
+							<a href="#" data-theme="logo-white"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="logo-dark"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="logo-blue"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="logo-indigo"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="logo-cyan"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="logo-green"><span class="head"></span><span class="cont"></span></a>
+							<a href="#" data-theme="logo-red"><span class="head"></span><span class="cont"></span></a>
+						</div>
+					</li>
+					<li>
+						<p class="selector-title">Header color</p>
+					</li>
+					<li class="theme-option">
+						<div class="theme-color header-theme">
+							<a href="#" data-theme="header-white"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-dark"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-blue"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-indigo"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-cyan"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-green"><span class="head"></span><span
+									class="cont"></span></a>
+							<a href="#" data-theme="header-red"><span class="head"></span><span class="cont"></span></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end color quick setting -->
+		<!-- start page container -->
+		<div class="page-container">
+			<?php require_once 'include/sideNavbar.php'; ?>
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">Manage Banner</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+										href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+								</li>
+								<li class="active">Manage Banner</li>
+							</ol>
+						</div>
+					</div>
+					<!-- add content here -->
+					<a href="addBanner.php" class="btn btn-round btn-primary">Add Banner</a>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="card card-topline-purple">
+										<div class="card-head">
+											<header>STRIPED TABLE</header>
+											<div class="tools">
+												<a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+												<a class="t-collapse btn-color fa fa-chevron-down"
+													href="javascript:;"></a>
+												<a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+											</div>
+										</div>
+										<div class="card-body ">
+											<div class="table-responsive">
+												<table class="table table-striped custom-table table-hover">
+													<thead>
+														<tr>
+															<th> Company</th>
+															<th>Descrition</th>
+															<th>Profit</th>
+															<th>Progress</th>
+															<th>Status</th>
+															<th>Action</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td><a href="#">VectorLab</a>
+															</td>
+															<td>Lorem Ipsum dorolo imit</td>
+															<td>693030.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 80%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="80"
+																		role="progressbar"
+																		class="progress-bar progress-bar-success"></div>
+																</div>
+															</td>
+															<td><span class="label label-info label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> Admin Lab </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>10003.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 66%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="66"
+																		role="progressbar"
+																		class="progress-bar progress-bar-warning"></div>
+																</div>
+															</td>
+															<td><span class="label label-warning label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> Metro Lab </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>23400.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 76%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="76"
+																		role="progressbar"
+																		class="progress-bar progress-bar-info"></div>
+																</div>
+															</td>
+															<td><span class="label label-success label-mini">Paid</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> Flat Lab </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>36342.50$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 40%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="40"
+																		role="progressbar"
+																		class="progress-bar progress-bar-danger"></div>
+																</div>
+															</td>
+															<td><span class="label label-danger label-mini">Paid</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#">Slick Lab</a>
+															</td>
+															<td>Lorem Ipsum dorolo imit</td>
+															<td>4022.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 80%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="80"
+																		role="progressbar"
+																		class="progress-bar progress-bar-success"></div>
+																</div>
+															</td>
+															<td><span class="label label-primary label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> TroCode </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>526456.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 50%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="50"
+																		role="progressbar"
+																		class="progress-bar progress-bar-warning"></div>
+																</div>
+															</td>
+															<td><span class="label label-warning label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#">Vector Ltd</a>
+															</td>
+															<td>Lorem Ipsum dorolo imit</td>
+															<td>12120.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 43%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="43"
+																		role="progressbar"
+																		class="progress-bar progress-bar-info"></div>
+																</div>
+															</td>
+															<td><span class="label label-success label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> Dashboard </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>56456.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 66%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="66"
+																		role="progressbar"
+																		class="progress-bar progress-bar-success"></div>
+																</div>
+															</td>
+															<td><span class="label label-warning label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#">Vector Ltd</a>
+															</td>
+															<td>Lorem Ipsum dorolo imit</td>
+															<td>12120.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 88%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="88"
+																		role="progressbar"
+																		class="progress-bar progress-bar-info"></div>
+																</div>
+															</td>
+															<td><span class="label label-info label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+														<tr>
+															<td><a href="#"> Modern </a>
+															</td>
+															<td>Lorem Ipsum dorolo</td>
+															<td>56456.00$</td>
+															<td>
+																<div class="progress progress-striped progress-xs">
+																	<div style="width: 66%" aria-valuemax="100"
+																		aria-valuemin="0" aria-valuenow="66"
+																		role="progressbar"
+																		class="progress-bar progress-bar-info"></div>
+																</div>
+															</td>
+															<td><span class="label label-warning label-mini">Due</span>
+															</td>
+															<td>
+																<button class="btn btn-success btn-xs">
+																	<i class="fa fa-check"></i>
+																</button>
+																<button class="btn btn-primary btn-xs">
+																	<i class="fa fa-pencil"></i>
+																</button>
+																<button class="btn btn-danger btn-xs">
+																	<i class="fa fa-trash-o "></i>
+																</button>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end page content -->
+			<!-- start chat sidebar -->
+			<div class="chat-sidebar-container" data-close-on-body-click="false">
+				<div class="chat-sidebar">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_1" class="nav-link active tab-icon" data-toggle="tab"> <i
+									class="material-icons">chat</i>Chat
+								<span class="badge badge-danger">4</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_3" class="nav-link tab-icon" data-toggle="tab"> <i
+									class="material-icons">settings</i>
+								Settings
+							</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<!-- Start User Chat -->
+						<div class="tab-pane active chat-sidebar-chat in active show" role="tabpanel"
+							id="quick_sidebar_tab_1">
+							<div class="chat-sidebar-list">
+								<div class="chat-sidebar-chat-users slimscroll-style" data-rail-color="#ddd"
+									data-wrapper-class="chat-sidebar-list">
+									<div class="chat-header">
+										<h5 class="list-heading">Online</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof3.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">John Deo</h5>
+												<div class="media-heading-sub">Spine Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">5</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof1.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Rajesh</h5>
+												<div class="media-heading-sub">Director</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof5.jpg"
+												width="35" height="35" alt="...">
+											<i class="away dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jacob Ryan</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-danger">8</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof4.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Kehn Anderson</h5>
+												<div class="media-heading-sub">CEO</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof2.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Sarah Smith</h5>
+												<div class="media-heading-sub">Anaesthetics</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof7.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Vlad Cardella</h5>
+												<div class="media-heading-sub">Cardiologist</div>
+											</div>
+										</li>
+									</ul>
+									<div class="chat-header">
+										<h5 class="list-heading">Offline</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-warning">4</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof6.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jennifer Maklen</h5>
+												<div class="media-heading-sub">Nurse</div>
+												<div class="media-heading-small">Last seen 01:20 AM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof8.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Lina Smith</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+												<div class="media-heading-small">Last seen 11:14 PM</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">9</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof9.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jeff Adam</h5>
+												<div class="media-heading-sub">Compounder</div>
+												<div class="media-heading-small">Last seen 3:31 PM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof10.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Anjelina Cardella</h5>
+												<div class="media-heading-sub">Physiotherapist</div>
+												<div class="media-heading-small">Last seen 7:45 PM</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End User Chat -->
+						<!-- Start Setting Panel -->
+						<div class="tab-pane chat-sidebar-settings" role="tabpanel" id="quick_sidebar_tab_3">
+							<div class="chat-sidebar-settings-list slimscroll-style">
+								<div class="chat-header">
+									<h5 class="list-heading">Layout Settings</h5>
+								</div>
+								<div class="chatpane inner-content ">
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Sidebar Position</div>
+											<div class="setting-set">
+												<select
+													class="sidebar-pos-option form-control input-inline input-sm input-small ">
+													<option value="left" selected="selected">Left</option>
+													<option value="right">Right</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Header</div>
+											<div class="setting-set">
+												<select
+													class="page-header-option form-control input-inline input-sm input-small ">
+													<option value="fixed" selected="selected">Fixed</option>
+													<option value="default">Default</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Footer</div>
+											<div class="setting-set">
+												<select
+													class="page-footer-option form-control input-inline input-sm input-small ">
+													<option value="fixed">Fixed</option>
+													<option value="default" selected="selected">Default</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">Account Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Notifications</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-1">
+														<input type="checkbox" id="switch-1" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Show Online</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-7">
+														<input type="checkbox" id="switch-7" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Status</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-2">
+														<input type="checkbox" id="switch-2" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">2 Steps Verification</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-3">
+														<input type="checkbox" id="switch-3" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">General Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Location</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-4">
+														<input type="checkbox" id="switch-4" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Save Histry</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-5">
+														<input type="checkbox" id="switch-5" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Auto Updates</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-6">
+														<input type="checkbox" id="switch-6" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end chat sidebar -->
+		</div>
+		<!-- end page container -->
+		<?php require_once 'include/footer.php'; ?>
+</body>
+
+
+<!-- Mirrored from radixtouch.in/templates/admin/smart/source/light/blank_page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jul 2019 11:05:44 GMT -->
+</html>
