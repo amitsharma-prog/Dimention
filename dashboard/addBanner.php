@@ -111,6 +111,14 @@
 						</div>
 					</div>
 					<!-- add content here -->
+						<form>
+							<div><h1>First Banner</h1></div>
+							<input type="text" name="" placeholder="enter title">
+							<input type="text" name="" placeholder="enter Heading">
+							<input type="text" name="" placeholder="enter Discription">
+						</form>
+
+					<!-- end content here -->
 				</div>
 			</div>
 			<!-- end page content -->
