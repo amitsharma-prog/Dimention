@@ -7,7 +7,7 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta name="description" content="Responsive Admin Template" />
 	<meta name="author" content="SmartUniversity" />
-	<title>Dashborad - Dimention</title>
+	<title>Dashborad - Dimension</title>
 	<!-- google font -->
 	<?php
 		require_once 'include/header.php';
@@ -101,7 +101,7 @@
 							</div>
 							<ol class="breadcrumb page-breadcrumb pull-right">
 								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
-										href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+										href="../index.php">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
 								</li>
 								<li class="active">Dashboard</li>
 							</ol>

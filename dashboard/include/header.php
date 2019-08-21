@@ -19,3 +19,7 @@
 	<link href="assets/css/theme/light/theme-color.css" rel="stylesheet" type="text/css" />
 	<!-- favicon -->
 	<link rel="shortcut icon" href="http://radixtouch.in/templates/admin/smart/source/assets/img/favicon.ico" />
+	<!-- dashboard style -->
+	<link rel="stylesheet" type="text/css" href="assets/css/dashboardStyle.css">
+
+

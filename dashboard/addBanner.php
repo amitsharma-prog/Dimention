@@ -8,9 +8,9 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<meta name="description" content="Responsive Admin Template" />
-	<meta name="author" content="SmartUniversity" />
-	<title>Smart University | Bootstrap Responsive Admin Template</title>
+	<meta name="description" content=" Admin Section" />
+	<meta name="author" content="Dimension" />
+	<title>Dimension | Update Slider</title>
 	<!-- google font -->
 	<?php
 		require_once 'include/header.php';
@@ -104,18 +104,42 @@
 							</div>
 							<ol class="breadcrumb page-breadcrumb pull-right">
 								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
-										href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+										href="index.php ">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
 								</li>
-								<li class="active">Blank Page</li>
+								<li class="active">Add Banner</li>
 							</ol>
 						</div>
 					</div>
 					<!-- add content here -->
 						<form>
-							<div><h1>First Banner</h1></div>
-							<input type="text" name="" placeholder="enter title">
-							<input type="text" name="" placeholder="enter Heading">
-							<input type="text" name="" placeholder="enter Discription">
+							<div class="update" id="update1">
+								<div id="heading"><h1>First Banner</h1></div>
+								<input type="text" name="" placeholder="Enter title" id="input1"><br>
+								<input type="text" name="" placeholder="Enter Heading" id="input2"><br>
+								<input type="textarea" name="" placeholder="Enter Discription" id="input3"><br>
+								<input type="text" name="" placeholder="Enter button link..." id="input5"><br>
+								<input type="images" name="" placeholder="Enter slider image link..." id="input6"><br>
+								<button type="submit" id="banner-submit" class="btn btn-primary" id="input4">Submit</button>
+							</div>
+							<div class="update" id="update2">
+								<div id="heading"><h1>Second Banner</h1></div>
+								<input type="text" name="" placeholder="enter title" id="input1"><br>
+								<input type="text" name="" placeholder="enter Heading" id="input2"><br>
+								<input type="textarea" name="" placeholder="enter Discription" id="input3"><br>
+								<input type="text" name="" placeholder="Enter button link..." id="input5"><br>
+								<input type="images" name="" placeholder="Enter slider image link..." id="input6"><br>
+								<button type="submit" id="banner-submit" class="btn btn-primary" id="input4">Submit</button>
+							</div>
+							<div class="update" id="update3">
+								<div id="heading"><h1>Third Banner</h1></div>
+								<input type="text" name="" placeholder="enter title" id="input1"><br>
+								<input type="text" name="" placeholder="enter Heading" id="input2"><br>
+								<input type="textarea" name="" placeholder="enter Discription" id="input3"><br>
+								<input type="text" name="" placeholder="Enter button link..." id="input5"><br>
+								<input type="images" name="" placeholder="Enter slider image link..." id="input6"><br>
+								<button type="submit" id="banner-submit" class="btn btn-primary">Submit</button>
+								<a href="manageBanner.php" id="banner-submit" class="btn btn-primary">Back</a>
+							</div>
 						</form>
 
 					<!-- end content here -->

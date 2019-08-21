@@ -1,6 +1,6 @@
 <!-- start footer -->
 		<div class="page-footer">
-			<div class="page-footer-inner"> 2019 &copy; Smart University Theme By
+			<div class="page-footer-inner"> 2019 &copy; Dimension Tutor Website All Right Reserved By
 				<a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">Amit</a>
 			</div>
 			<div class="scroll-to-top">
