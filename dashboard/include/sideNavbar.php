@@ -33,7 +33,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a href="event.html" class="nav-link nav-toggle"> <i class="material-icons">group</i>
+								<a href="manageTestimonials.php" class="nav-link nav-toggle"> <i class="material-icons">group</i>
 									<span class="title">Testimonial Management</span>
 								</a>
 							</li>
